@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav p {
+    color: white;
+    font-size: 25px;
+    padding-left: 180px;
+    padding-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 190px;
+}
+
+nav li.hover {
+    color: brown;
+}
+
+nav ul li {
+    padding: 30px;
+    font-size: 15px;
+}
+
+.bolim2 {
+    text-align: center;
+    background-color: rgb(37, 36, 36);
+}
+
+.bolim2 h1 {
+    padding: 20px;
+    font-size: 70px;
+    color: #eee;
+}
+
+.bolim2 h3 {
+    color: #eee;
+    font-size: 60px;
+}
+
+.bolim2 button {
+    margin: 30px;
+    padding: 10px;
+    background-color: red;
+    color: bisque;
+    border-color: rgb(10, 10, 10);
+}
+
+.fourdivs > div {
+    width: 100%;
+    height: 80px;
+    background-color: #eee;
+    padding: 100px;
+    width: 330px;
+    font-size: 20px;
+}
+
+.fourdivs {
+    display: flex;
+    text-align: center;
+}
+
+.bolim3 {
+    text-align: center;
+}
+
+.bolim3 h2 {
+    padding: 20px;
+    font-size: 50px;
+}
+
+.bolim3 p {
+    font-size: 40px;
+}
+
+.bolim4 {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ALL a {
+    background-color:rgb(10, 10, 10); 
+    border-radius: 8px;      
+    color: white;
+    font-size: 25px;
+}
+
+.bolim4 a {
+    padding: 10px;  
+    text-decoration: none;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    color: white;
+    font-size: 25px;
+}
+
+.bolim4 > a:not(.a1) {
+    background-color: red;
+}
+
+.bolim5 {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.bolim5 div {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap: 6px;
+}
+
+.bolim5 div div {
+    height: 250px;
+    background-color: aqua;
+    margin-bottom: 6px;
+}
+
+.footer1 {
+    background-color: rgb(37, 36, 36);
+    height: 260px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.footer1 h3 {
+    color: aliceblue;
+}
+
+.footer1 p:nth-child(1) {
+    
+} 
+
+.footer2 {
+    background-color: rgb(15, 15, 15);
+    height: 90px;
+}
+
+.locatsiya {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(80, 79, 79);
+}
+
+svg {
+    color: hsla(19, 100%, 50%, 0.849);
+}
+
+.locatsiya p {
+    margin-left: 30px;
+}
+
+.footer2 {
+    text-align: center;
+}
+
+.footer2 > p {
+    font-size: 20px;
+    padding-top: 30px;
+    color:rgb(80, 79, 79);
+}
